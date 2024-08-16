@@ -1,0 +1,43 @@
+﻿@model Student
+
+@{
+    ViewData["Title"] = "Add a new Student";
+}
+
+<html>
+<body>
+    <div class="row text">
+        <div class="col-md-8 offset-2">
+            <p>
+                <h1>Add a New Student</h1>
+            </p>
+            <div class="row">
+                <div class="col-md-10 offset-1">
+                    <form asp-action="Create" enctype="multipart/form-data">
+                        <div class="text-danger" asp-validation-summary="All"></div>
+                        <div class="mb-3">
+                            <label asp-for="Name" class="form-label"></label>
+                            <input asp-for="Name" class="form-control" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Prodi" class="form-label"></label>
+                            <input asp-for="Prodi" class="form-control" />
+                            <span asp-validation-for="Prodi" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Address" class="form-label"></label>
+                            <input asp-for="Address" class="form-control"/>
+                            <span asp-validation-for="Address" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3 d-flex">
+                            <input type="submit" value="Create" class="btn btn-outline-success" />
+                            <a asp-action="Index" class="btn btn-outline-secondary ms-auto">Show All</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

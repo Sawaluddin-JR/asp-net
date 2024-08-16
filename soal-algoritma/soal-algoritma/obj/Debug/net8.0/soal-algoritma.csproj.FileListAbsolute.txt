@@ -1,0 +1,14 @@
+F:\ASP.NET\soal-algoritma\soal-algoritma\bin\Debug\net8.0\soal-algoritma.exe
+F:\ASP.NET\soal-algoritma\soal-algoritma\bin\Debug\net8.0\soal-algoritma.deps.json
+F:\ASP.NET\soal-algoritma\soal-algoritma\bin\Debug\net8.0\soal-algoritma.runtimeconfig.json
+F:\ASP.NET\soal-algoritma\soal-algoritma\bin\Debug\net8.0\soal-algoritma.dll
+F:\ASP.NET\soal-algoritma\soal-algoritma\bin\Debug\net8.0\soal-algoritma.pdb
+F:\ASP.NET\soal-algoritma\soal-algoritma\obj\Debug\net8.0\soal-algoritma.GeneratedMSBuildEditorConfig.editorconfig
+F:\ASP.NET\soal-algoritma\soal-algoritma\obj\Debug\net8.0\soal-algoritma.AssemblyInfoInputs.cache
+F:\ASP.NET\soal-algoritma\soal-algoritma\obj\Debug\net8.0\soal-algoritma.AssemblyInfo.cs
+F:\ASP.NET\soal-algoritma\soal-algoritma\obj\Debug\net8.0\soal-algoritma.csproj.CoreCompileInputs.cache
+F:\ASP.NET\soal-algoritma\soal-algoritma\obj\Debug\net8.0\soal-algoritma.dll
+F:\ASP.NET\soal-algoritma\soal-algoritma\obj\Debug\net8.0\refint\soal-algoritma.dll
+F:\ASP.NET\soal-algoritma\soal-algoritma\obj\Debug\net8.0\soal-algoritma.pdb
+F:\ASP.NET\soal-algoritma\soal-algoritma\obj\Debug\net8.0\soal-algoritma.genruntimeconfig.cache
+F:\ASP.NET\soal-algoritma\soal-algoritma\obj\Debug\net8.0\ref\soal-algoritma.dll

@@ -1,0 +1,38 @@
+﻿@page
+@model MyStore.Pages.Products.IndexModel
+@{
+}
+
+<br />
+<h1>List of Product</h1>
+<a class="btn btn-primary" href="/Products/Create">New Product</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Stock</th>
+            <th>Category</th>
+            <th>Created_at</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model.listProduct)
+        {
+            <tr>
+                <td>@item.id</td>
+                <td>@item.name</td>
+                <td>@item.price</td>
+                <td>@item.stock</td>
+                <td>@item.category</td>
+                <td>@item.created_at</td>
+                <td>
+                    <a class="btn btn-warning btn-sm" href="/Products/Edit?id=@item.id">Edit</a>
+                    <a class="btn btn-danger btn-sm" href="/Products/Delete?id=@item.id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

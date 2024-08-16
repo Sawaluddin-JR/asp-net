@@ -1,0 +1,111 @@
+﻿@page "/"
+@using GameKartu.Models;
+
+<PageTitle>Index</PageTitle>
+
+@*<h1>@angka</h1>*@
+
+@*@foreach(var kartu in listRemi)
+{
+    <h1 style="color:red">@kartu.KartuName</h1>
+}*@
+
+<div class="row">
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <button onclick="@AddSneaker" class="btn btn-primary">Tambah Sneaker</button><br /><br />
+                <button onclick="@AddSendal" class="btn btn-success">Tambah Sendal</button><br /><br />
+                <button onclick="@AddKulit" class="btn btn-warning">Tambah Sepatu Kulit</button><br /><br />
+                <button onclick="@AddPantofel" class="btn btn-danger">Tambah Pantofel</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <h3>Rak Sepatu</h3>
+                <table class="table table-bordered">
+                    <tr>
+                        <th>Sepatu</th>
+                        <th>Aksi</th>
+                    </tr>
+                    @foreach (var sepatu in listSepatu)
+                    {
+                        <tr>
+                            <td>@sepatu.JenisSepatu</td>
+                            <td>
+                                <button type="button" class="btn">
+                                    Hapus
+                                </button>
+                            </td>
+                        </tr>
+                    }
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@*Welcome to your new app.
+
+<SurveyPrompt Title="How is Blazor working for you?" />*@
+
+@code{
+    //KartuRemi asSekop;
+    //int angka = 0;
+    //string angkas = "";
+    List<KartuRemi> listRemi;
+    List<Sepatu> listSepatu;
+    protected override void OnInitialized()
+    {
+        //KartuRemi asSekop = new KartuRemi()
+        //{
+        // Kembang = "Sekop",
+        //Angka = "As"
+        //};
+
+        //asSekop = new KartuRemi("Sekop", "As");
+
+        //asSekop = new KartuRemi(KembangRemi.Sekop, AngkaRemi.As);
+
+        //Casting : Mengubah tipe data enum ke integer
+        //angka = (int) asSekop.Angka;
+        //angkas = asSekop.Angka.ToString();
+
+        listRemi = new List<KartuRemi>();
+        listSepatu = new List<Sepatu>();
+        listRemi.Add(new KartuRemi(KembangRemi.Tempe,AngkaRemi.As));
+        listRemi.Add(new KartuRemi(KembangRemi.Lope, AngkaRemi.As));
+
+        KartuRemi asKeriting =
+            new KartuRemi(KembangRemi.Keriting, AngkaRemi.As);
+        listRemi.Add(asKeriting);
+
+        //cari index
+        int indexAsKeriting = listRemi.IndexOf(asKeriting);
+        bool adaAsKeriting = listRemi.Contains(asKeriting);
+
+        listRemi.Remove(asKeriting);
+    }
+
+    public void AddSneaker()
+    {
+        listSepatu.Add(new Sepatu(JenisSepatu.Sneaker));
+    }
+
+    public void AddSendal()
+    {
+        listSepatu.Add(new Sepatu(JenisSepatu.Sendal));
+    }
+
+    public void AddKulit()
+    {
+        listSepatu.Add(new Sepatu(JenisSepatu.Kulit));
+    }
+
+    public void AddPantofel()
+    {
+        listSepatu.Add(new Sepatu(JenisSepatu.Pantofel));
+    }
+}

@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\ASP.NET\\MyMvcApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{61827F2C-8F35-4AE6-999C-5DB0FE1F68B7}|MyMvcApp\\MyMvcApp.csproj|f:\\asp.net\\mymvcapp\\mymvcapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61827F2C-8F35-4AE6-999C-5DB0FE1F68B7}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61827F2C-8F35-4AE6-999C-5DB0FE1F68B7}|MyMvcApp\\MyMvcApp.csproj|f:\\asp.net\\mymvcapp\\mymvcapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61827F2C-8F35-4AE6-999C-5DB0FE1F68B7}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61827F2C-8F35-4AE6-999C-5DB0FE1F68B7}|MyMvcApp\\MyMvcApp.csproj|f:\\asp.net\\mymvcapp\\mymvcapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{61827F2C-8F35-4AE6-999C-5DB0FE1F68B7}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61827F2C-8F35-4AE6-999C-5DB0FE1F68B7}|MyMvcApp\\MyMvcApp.csproj|f:\\asp.net\\mymvcapp\\mymvcapp\\wwwroot\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{61827F2C-8F35-4AE6-999C-5DB0FE1F68B7}|MyMvcApp\\MyMvcApp.csproj|solutionrelative:mymvcapp\\wwwroot\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\ASP.NET\\MyMvcApp\\MyMvcApp\\Program.cs",
+              "RelativeDocumentMoniker": "MyMvcApp\\Program.cs",
+              "ToolTip": "F:\\ASP.NET\\MyMvcApp\\MyMvcApp\\Program.cs",
+              "RelativeToolTip": "MyMvcApp\\Program.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAA4AAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T03:36:35.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "F:\\ASP.NET\\MyMvcApp\\MyMvcApp\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "MyMvcApp\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "F:\\ASP.NET\\MyMvcApp\\MyMvcApp\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "MyMvcApp\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAswB8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T02:16:13.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\ASP.NET\\MyMvcApp\\MyMvcApp\\appsettings.json",
+              "RelativeDocumentMoniker": "MyMvcApp\\appsettings.json",
+              "ToolTip": "F:\\ASP.NET\\MyMvcApp\\MyMvcApp\\appsettings.json",
+              "RelativeToolTip": "MyMvcApp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-18T02:07:04.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "app.js",
+              "DocumentMoniker": "F:\\ASP.NET\\MyMvcApp\\MyMvcApp\\wwwroot\\js\\app.js",
+              "RelativeDocumentMoniker": "MyMvcApp\\wwwroot\\js\\app.js",
+              "ToolTip": "F:\\ASP.NET\\MyMvcApp\\MyMvcApp\\wwwroot\\js\\app.js",
+              "RelativeToolTip": "MyMvcApp\\wwwroot\\js\\app.js",
+              "ViewState": "AQIAADkAAAAAAAAAAAAowD4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-08T18:42:46.56Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

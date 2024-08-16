@@ -1,0 +1,66 @@
+﻿@model IEnumerable<MemberManagement.Models.Member>
+
+@{
+    ViewData["Title"] = "Member List";
+}
+
+<h1 class="my-4">@ViewData["Title"]</h1>
+
+<div class="mb-3">
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</div>
+
+<table class="table table-bordered table-striped">
+    <thead action="thead-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateOfBirth)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsPriority)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Order)
+            </th>
+            <th class="text-center">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.Name
+                </td>
+                <td>
+                    @item.Gender
+                </td>
+                <td>
+                    @item.Email
+                </td>
+                <td>
+                    @item.DateOfBirth
+                </td>
+                <td>
+                    @item.IsPriority
+                <td>
+                    @item.Order
+                </td>
+                <td class="text-center">
+                    <a asp-action="Edit" asp-route-id="@item.PersonalID" class="btn btn-sm btn-warning">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@item.PersonalID" class="btn btn-sm btn-danger"
+                    onclick="return confirm('Yakin untuk menghapus member ini ?');">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

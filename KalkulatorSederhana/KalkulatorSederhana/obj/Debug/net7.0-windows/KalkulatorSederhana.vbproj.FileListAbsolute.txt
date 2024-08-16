@@ -1,0 +1,17 @@
+F:\ASP.NET\KalkulatorSederhana\KalkulatorSederhana\bin\Debug\net7.0-windows\KalkulatorSederhana.exe
+F:\ASP.NET\KalkulatorSederhana\KalkulatorSederhana\bin\Debug\net7.0-windows\KalkulatorSederhana.deps.json
+F:\ASP.NET\KalkulatorSederhana\KalkulatorSederhana\bin\Debug\net7.0-windows\KalkulatorSederhana.runtimeconfig.json
+F:\ASP.NET\KalkulatorSederhana\KalkulatorSederhana\bin\Debug\net7.0-windows\KalkulatorSederhana.dll
+F:\ASP.NET\KalkulatorSederhana\KalkulatorSederhana\bin\Debug\net7.0-windows\KalkulatorSederhana.pdb
+F:\ASP.NET\KalkulatorSederhana\KalkulatorSederhana\obj\Debug\net7.0-windows\KalkulatorSederhana.vbproj.AssemblyReference.cache
+F:\ASP.NET\KalkulatorSederhana\KalkulatorSederhana\obj\Debug\net7.0-windows\KalkulatorSederhana.Form1.resources
+F:\ASP.NET\KalkulatorSederhana\KalkulatorSederhana\obj\Debug\net7.0-windows\KalkulatorSederhana.vbproj.GenerateResource.cache
+F:\ASP.NET\KalkulatorSederhana\KalkulatorSederhana\obj\Debug\net7.0-windows\KalkulatorSederhana.GeneratedMSBuildEditorConfig.editorconfig
+F:\ASP.NET\KalkulatorSederhana\KalkulatorSederhana\obj\Debug\net7.0-windows\KalkulatorSederhana.AssemblyInfoInputs.cache
+F:\ASP.NET\KalkulatorSederhana\KalkulatorSederhana\obj\Debug\net7.0-windows\KalkulatorSederhana.AssemblyInfo.vb
+F:\ASP.NET\KalkulatorSederhana\KalkulatorSederhana\obj\Debug\net7.0-windows\KalkulatorSederhana.vbproj.CoreCompileInputs.cache
+F:\ASP.NET\KalkulatorSederhana\KalkulatorSederhana\obj\Debug\net7.0-windows\KalkulatorSederhana.dll
+F:\ASP.NET\KalkulatorSederhana\KalkulatorSederhana\obj\Debug\net7.0-windows\refint\KalkulatorSederhana.dll
+F:\ASP.NET\KalkulatorSederhana\KalkulatorSederhana\obj\Debug\net7.0-windows\KalkulatorSederhana.pdb
+F:\ASP.NET\KalkulatorSederhana\KalkulatorSederhana\obj\Debug\net7.0-windows\KalkulatorSederhana.genruntimeconfig.cache
+F:\ASP.NET\KalkulatorSederhana\KalkulatorSederhana\obj\Debug\net7.0-windows\ref\KalkulatorSederhana.dll

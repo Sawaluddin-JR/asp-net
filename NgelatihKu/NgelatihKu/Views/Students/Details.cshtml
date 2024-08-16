@@ -1,0 +1,41 @@
+﻿@model Student
+
+@{
+    ViewData["Title"] = "Details of the Student";
+}
+
+
+<html>
+<body>
+    <div class="row text">
+        <div class="col-md-10 offset-1">
+            <p>
+                <h1>Details for @Model.Name</h1>
+            </p>
+            <div class="row">
+                <div class="col-md-10 offset-1">
+                    <div class="mb-3">
+                        <label asp-for="Name" class="form-label"></label>
+                        <input asp-for="Name" class="form-control" readonly />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Prodi" class="form-label"></label>
+                        <input asp-for="Prodi" class="form-control" readonly />
+                        <span asp-validation-for="Prodi" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Address" class="form-label"></label>
+                        <input asp-for="Address" class="form-control" readonly />
+                        <span asp-validation-for="Address" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3 d-flex">
+                        <a class="btn btn-outline-success" asp-action="Edit" asp-route-id="@Model.Id">Edit</a>
+                        <a class="btn btn-outline-secondary ms-auto" asp-action="Index">Show All</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
